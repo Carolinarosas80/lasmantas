@@ -1,0 +1,19 @@
+// Variables globales
+@use "../scss/variables";
+
+// Mixins reutilizables
+@use "../scss/mixins";
+
+// Estilos base
+@use "../scss/base";
+
+// Componentes globales
+@use "../scss/header";
+@use"../scss/header";
+
+// Estilos específicos de páginas
+@use "../scss/hero";
+@use "../scss/categories";
+@use "../scss/productos";
+@use "../scss/about";
+@use "../scss/contact";

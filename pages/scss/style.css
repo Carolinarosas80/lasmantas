@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  background-color: #585656;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #bca49e;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background-color: #bca49e;
+  padding: 1rem;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav a {
+  color: #e4b9b9;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+header nav a:hover {
+  background-color: #a78880;
+  border-radius: 5px;
+}
+header nav .active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+header {
+  background-color: #bca49e;
+  padding: 1rem;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav a {
+  color: #e4b9b9;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+header nav a:hover {
+  background-color: #a78880;
+  border-radius: 5px;
+}
+header nav .active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: #e4b9b9;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  color: #bca49e;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.categories {
+  padding: 2rem;
+}
+.categories h2 {
+  text-align: center;
+  color: #bca49e;
+  margin-bottom: 1rem;
+}
+.categories .category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+.categories .category-grid div {
+  text-align: center;
+}
+.categories .category-grid div img {
+  width: 100%;
+  border-radius: 10px;
+}
+.categories .category-grid div h3 {
+  margin-top: 0.5rem;
+  color: #333;
+}
+
+.product-list {
+  padding: 2rem;
+}
+.product-list h1 {
+  text-align: center;
+  color: #bca49e;
+  margin-bottom: 1rem;
+}
+.product-list .productos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+.product-list .productos-grid .producto {
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid #999999;
+  border-radius: 10px;
+}
+.product-list .productos-grid .producto img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.product-list .productos-grid .producto h2 {
+  margin-top: 1rem;
+  color: #bca49e;
+}
+.product-list .productos-grid .producto p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.about {
+  padding: 2rem;
+}
+.about h2 {
+  text-align: center;
+  color: #bca49e;
+  margin-bottom: 1rem;
+}
+.about p {
+  margin-top: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+.contact-info {
+  text-align: center;
+  padding: 2rem;
+  background-color: #fbf9f8;
+}
+.contact-info h2 {
+  color: #bca49e;
+}
+.contact-info p {
+  margin: 0.5rem 0;
+}
+.contact-info p a {
+  color: #333;
+}
+.contact-info p a:hover {
+  color: #906d64;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+form label {
+  font-weight: bold;
+}
+form input, form textarea, form button {
+  padding: 0.8rem;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+form button {
+  background-color: #bca49e;
+  color: #e4b9b9;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
