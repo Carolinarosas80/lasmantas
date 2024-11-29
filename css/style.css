@@ -13,24 +13,25 @@ body {
 
 a {
   text-decoration: none;
-  color: #3b3837;
+  color: #161616;
 }
 a:hover {
   text-decoration: underline;
 }
 
 header {
-  background-color: rgb(54, 54, 54);
+  background-color: rgb(93, 91, 91);
   padding: 20px;
   display: flex;
   justify-content: space-between;
+  text-align: center;
   align-items: center;
   flex-wrap: wrap;
 }
 header .logo {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: bold;
-  color: #333;
+  color: white;
   text-align: center;
 }
 header nav ul {
@@ -63,7 +64,36 @@ header nav ul li a:hover {
 }
 #Inicio p {
   font-size: 18px;
-  color: #797171;
+  color: #f7f2f2;
+}
+
+@media (max-width: 768) {
+  header,
+  .categories .category-grid,
+  .productos-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+footer {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+footer .contact-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+footer .contact-info p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+footer .contact-info p a {
+  color: #161616;
+  text-decoration: none;
+}
+footer .contact-info p a:hover {
+  text-decoration: underline;
 }
 
 .hero {
@@ -73,7 +103,7 @@ header nav ul li a:hover {
   align-items: center;
   height: 80vh;
   text-align: center;
-  background: linear-gradient(to bottom, #6c63ff, #a8a4ff);
+  background: linear-gradient(to bottom, #5e5c78, #a8a4ff);
   color: white;
 }
 .hero h2 {
@@ -96,7 +126,7 @@ header nav ul li a:hover {
 }
 .categories .category-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
   gap: 20px;
   padding: 0 20px;
 }
@@ -125,14 +155,14 @@ header nav ul li a:hover {
   margin-bottom: 15px;
   font-size: 1rem;
   color: white;
-  background-color: #6c63ff;
+  background-color: #853b75;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 .categories .category-grid div button:hover {
-  background-color: #5646d6;
+  background-color: #a57c9f;
 }
 
 .product-list {
@@ -227,7 +257,7 @@ header nav ul li a:hover {
   text-align: center;
 }
 .categories .category-grid div img {
-  width: 150 px;
+  width: 100 px;
   height: auto;
   border-radius: 8px;
   margin-bottom: 10px;
@@ -235,6 +265,21 @@ header nav ul li a:hover {
 .categories .category-grid div h3 {
   margin-top: 18px;
   color: #333;
+}
+
+button {
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  color: white;
+  background-color: #853b75;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: #a57c9f;
 }
 
 .product-list {
@@ -292,16 +337,16 @@ header nav ul li a:hover {
 .about p {
   text-align: center;
   font-size: 18px;
-  color: #7b7a7a;
+  color: #cdc8c8;
 }
 
 .contact-info {
   text-align: center;
   padding: 2rem;
-  background-color: rgb(137.7631578947, 131.3684210526, 129.2368421053);
+  background-color: rgb(98.5, 98.5, 98.5);
 }
 .contact-info h2 {
-  color: #3b3837;
+  color: #161616;
 }
 .contact-info p {
   margin: 0.5rem 0;
@@ -310,7 +355,7 @@ header nav ul li a:hover {
   color: #333;
 }
 .contact-info p a:hover {
-  color: rgb(6.2105263158, 5.8947368421, 5.7894736842);
+  color: black;
 }
 
 @media (max-width: 768px) {

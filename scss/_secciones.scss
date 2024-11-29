@@ -17,7 +17,7 @@
         text-align: center;
   
         img {
-          width: 150 px;
+          width: 100 px;
           height: auto;
           border-radius: 8px;
           margin-bottom: 10px;
@@ -31,3 +31,18 @@
     }
   }
   
+  button {
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: white;
+    background-color: #853b75;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: #a57c9f;
+    }
+}
